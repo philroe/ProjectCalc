@@ -266,7 +266,7 @@
 	background: #dc8f25 /*{b-bdown-background-color}*/;
 	font-weight: bold;
 	height:50px; 
-	width:75px;
+	width:80px;
 	color: #ffffff /*{b-bdown-color}*/;
 	text-shadow: 0 /*{b-bdown-shadow-x}*/ 1px /*{b-bdown-shadow-y}*/ 0 /*{b-bdown-shadow-radius}*/ #444444 /*{b-bdown-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #c68021 /*{b-bdown-background-start}*/), to( #f29d28 /*{b-bdown-background-end}*/)); /* Saf4+, Chrome */

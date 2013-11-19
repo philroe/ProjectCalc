@@ -12,7 +12,7 @@
 <style type="text/css">
 body,td,th {
 	font-family: Arial, Helvetica, sans-serif;
-	line-height: normal;
+	line-height: inherit;
 	width: auto;
 }
 body {
@@ -89,15 +89,15 @@ document.dataEntry.total.value=answer;
   <div>
     <h1>
       <!--Enter 1st number--Pulls up numeric keypad on mobile-->
-      <textarea name="number1" placeholder="Input 1st Number" input type="number" step="0.01"></textarea>
+      <input name="number1" type="text" placeholder="Input 1st Number" step="0.01" value="" input="input" height:50px>
       <br> 
       
       <!-- Enter 2nd number. --> 
-      <textarea name="number2" placeholder="Input 2nd Number" input type="number" step="0.01"></textarea> 
+      <input name="number2" type="text" placeholder="Input 2nd Number" step="0.01" value="" input="input" height:50px> 
       <br>
       
       <!-- Results -->
-      <textarea name="total" placeholder="Press Operator Below"></textarea>
+      <input name="total" type="text" placeholder="Press Operator Below" value="" height:50px align:center>
     </h1>
   </div>
   <table width="90%" border="0" cellspacing="2" cellpadding="2">
